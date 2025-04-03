@@ -1,0 +1,217 @@
+body, html {
+    max-width: 100ch;
+    margin-inline: auto;
+    padding: 1em;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    font-weight:300;
+    font-size:15px;
+}
+
+h1{
+    font-family: "Sora", sans-serif;
+    color:#1e3a06;
+    font-weight:700;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+span.emphasis1{
+    font-weight: 700;
+    color: #bb310e;
+}
+
+span.emphasis2{
+    font-weight: 700;
+    color: #aa6600;
+}
+
+h4{
+    font-size:20px;
+    font-weight: 500;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    border-radius: 10px;
+    background-color: #2b4e0c;
+    color:white;
+    font-family: 'Sora', sans-serif;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Sora', sans-serif;
+    margin-top:0px;
+    margin-bottom:20px;
+}
+
+div.header{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding: 10px 0;
+}
+
+.logo{
+    height:40px;
+    width:40px;
+    display:inline-block
+}
+
+/* Season Selector ------------------------------------------------------------------- */
+#seasonButtons {
+    display: flex;
+    gap: 0;
+    width:50%;
+}
+
+.season-button {
+    font-family: 'Sora', sans-serif;
+    border: none;
+    background-color: #f4f4f4;
+    padding: 8px 12px;
+    margin: 0; /* Removes margin to make them touch */
+    cursor: pointer;
+    transition: background 0.3s;
+    flex: 1; 
+}
+
+.season-button:hover {
+    background-color: #ddd;
+}
+
+.season-button.active {
+    background-color: #333;
+    color: white;
+}
+
+/*stat selector ----------------------------------------------------------------------------*/
+#statButtons {
+    display: flex;
+    gap: 0;
+    width:50%;
+}
+
+.stat-button {
+    font-family: 'Sora', sans-serif;
+    border: none;
+    background-color: #f4f4f4;
+    padding: 8px 12px;
+    margin: 0; /* Removes margin to make them touch */
+    cursor: pointer;
+    transition: background 0.3s;
+    flex: 1; 
+}
+
+.stat-button:hover {
+    background-color: #ddd;
+}
+
+.stat-button.active {
+    background-color: #333;
+    color: white;
+}
+
+/* tick style ------------------------------------------------------------------- */
+.tick line{
+    visibility:visible;
+  }
+
+.y-axis .tick line{
+    visibility:hidden;
+}
+
+
+.domain{
+    visibility: hidden;
+  }
+
+  .grid line {
+    stroke: #ddd; /* Light grey */
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+
+
+/* stats ---*/
+.rankingContainer{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+div.ranking{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left:20px;
+    margin-bottom:20px;
+}
+
+.stat{
+    font-size:30px;
+    font-weight: 700;
+    margin-bottom:0;
+}
+
+iframe{
+    width:100%;
+    height:100ch;
+    
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: #fff;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #54702b;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.total {
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+/* scroll progress ----------------------------------------------------*/
+img.scroll-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    width:50px;
+    height:auto;
+  
+    transform-origin: center;
+  
+    animation: rotate 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+  
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    z-index: 500;
+}
+
+@keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

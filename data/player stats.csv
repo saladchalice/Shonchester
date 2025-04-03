@@ -1,0 +1,75 @@
+Player,Season,Games,Goals,Assists,Clean Sheets,Thrown Up,Role,Position
+Rishabh Kaushal,1,4.0,1,1,,0.0,Attacker,Striker
+Rishabh Kaushal,2,6.0,2,0,,0.0,Attacker,Striker
+Rishabh Kaushal,3,7.0,2,1,,0.0,Attacker,Striker
+Rishabh Kaushal,4,3.0,2,0,,0.0,Attacker,Striker
+Edward Lu,1,4.0,1,0,,0.0,Defender,Centerback
+Edward Lu,2,5.0,0,0,,0.0,Defender,Centerback
+Edward Lu,3,6.0,0,0,,0.0,Defender,Centerback
+Edward Lu,4,7.0,0,0,,0.0,Defender,Centerback
+Nicolas Colebank,1,4.0,0,1,,0.0,Defender,Centerback
+Nicolas Colebank,2,6.0,0,0,,0.0,Defender,Centerback
+Nicolas Colebank,3,7.0,0,0,,0.0,Defender,Centerback
+Nicolas Colebank,4,8.0,0,0,,0.0,Defender,Centerback
+Mark Ruangrattham,1,4.0,0,1,,0.0,Midfielder,Center Defensive Midfielder
+Mark Ruangrattham,2,6.0,1,1,,0.0,Midfielder,Center Defensive Midfielder
+Mark Ruangrattham,3,7.0,1,2,,0.0,Midfielder,Center Defensive Midfielder
+Mark Ruangrattham,4,7.0,0,1,,0.0,Midfielder,Center Defensive Midfielder
+Pato Harris,3,6.0,5,0,,0.0,Attacker,Striker
+Pato Harris,4,0.1,0,0,,0.0,Attacker,Striker
+Daniel Berreondo-Cendejas,1,4.0,0,0,,0.0,Defender,Left Back
+Daniel Berreondo-Cendejas,2,3.0,1,0,,0.0,Defender,Left Back
+Daniel Berreondo-Cendejas,3,7.0,0,0,,0.0,Defender,Left Back
+Daniel Berreondo-Cendejas,4,8.0,0,0,,0.0,Defender,Left Back
+Nathan Vechoor,2,1.0,1,1,,0.0,Attacker,Right Winger
+Nathan Vechoor,3,1.0,1,0,,0.0,Attacker,Right Winger
+Nathan Vechoor,4,4.0,2,2,,0.0,Attacker,Right Winger
+Gage Rullhausen,3,5.0,2,1,,0.0,Midfielder,Right Midfielder
+Eric Gu,1,4.0,0,0,,0.0,Defender,Centerback
+Eric Gu,2,6.0,0,0,,0.0,Defender,Centerback
+Eric Gu,3,6.0,0,0,,0.0,Defender,Centerback
+Eric Gu,4,8.0,0,0,,0.0,Defender,Centerback
+Andrew Cen,3,8.0,1,2,,0.0,Attacker,Left Winger
+Andres Caliz,3,-1.0,-1,-1,,0.0,Midfielder,Center Attacking Midfielder
+Andres Caliz,4,6.0,1,2,,0.0,Midfielder,Center Attacking Midfielder
+Robbie Sandborn,3,8.0,2,2,,0.0,Defender,Centerback
+Shon John,1,4.0,0,0,,1.0,Defender,Right Back
+Shon John,2,0.0,0,0,,0.0,Defender,Right Back
+Agasthya Valluri,1,4.0,0,0,,1.0,Midfielder,Central Midfielder
+Mohammed Khamsya bin Khidzer,2,5.0,0,0,,0.0,Defender,Centerback
+Mohammed Khamsya bin Khidzer,3,3.0,1,0,,0.0,Defender,Centerback
+Jeffrey Phillips,2,5.0,3,2,,0.0,Midfielder,Right Midfielder
+Allen Keissieh,2,6.0,0,0,,0.0,Midfielder,Central Midfielder
+Allen Keissieh,3,7.0,0,0,,0.0,Midfielder,Central Midfielder
+Allen Yan,2,6.0,0,0,1.0,0.0,Goalkeeper,Goalkeeper
+Allen Yan,3,5.0,0,0,2.0,0.0,Goalkeeper,Goalkeeper
+Allen Yan,4,8.0,0,0,2.0,0.0,Goalkeeper,Goalkeeper
+Axel Yarahuaman,4,8.0,0,0,,0.0,Defender,Centerback
+Vivin Vinil,1,2.0,0,0,,0.0,Midfielder,Central Midfielder
+Decheng Liu,4,3.0,0,0,,0.0,Attacker,Left Winger
+Tomas Tabaoda,4,8.0,2,2,,0.0,Attacker,Right Winger
+Alessandro Tanghwa,1,4.0,0,0,,0.0,Defender,Centerback
+Justin Duy,1,4.0,0,0,,0.0,Goalkeeper,Goalkeeper
+Ha Son,1,2.0,0,0,,0.0,Defender,Left Back
+Brayan Loza,1,1.0,0,0,,0.0,Defender,Centerback
+Nick Capezzone,1,1.0,0,0,,0.0,Attacker,Right Winger
+Jaydon G.,3,1.0,0,0,,0.0,Defender,Centerback
+Adi Gupta,1,2.0,0,0,,0.0,Attacker,Left Winger
+Adi Gupta,3,-1.0,-1,0,,0.0,Attacker,Left Winger
+Shrey Kumar,2,1.0,0,0,,0.0,Midfielder,Center Defensive Midfielder
+Harshil Dodiya,3,5.0,0,1,,0.0,Midfielder,Center Attacking Midfielder
+Leo Luca,3,2.0,0,0,,0.0,Attacker,Right Winger
+Arturo,4,2.0,1,0,,0.0,Attacker,Striker
+Jose,4,1.0,2,1,,0.0,Attacker,Striker
+Cesar,4,1.0,2,1,,0.0,Attacker,Striker
+Matt,3,3.0,0,1,,0.0,Attacker,Right Winger
+Pedro Serdio,3,1.0,0,0,,0.0,Defender,Right Back
+Alec Balandin,3,3.0,0,0,,0.0,Attacker,Striker
+Derrick Chen,3,4.0,0,0,,0.0,Midfielder,Central Midfielder
+Andrew Trieu,3,1.0,0,0,,0.0,Defender,Centerback
+George Petkov,3,2.0,0,1,,0.0,Midfielder,Right Midfielder
+Allen Vadukoot,4,3.0,2,0,,0.0,Attacker,Striker
+John-Henry Pezzuto,3,3.0,0,0,1.0,0.0,Goalkeeper,Goalkeeper
+Aiden Hall,2,2.0,0,0,,0.0,Midfielder,Central Midfielder
+Jeff Lai,2,1.0,0,0,,0.0,Jeff,Jeff
+Max Irby,3,2.0,0,1,,0.0,Midfielder,Center Attacking Midfielder

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shonchester United</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- D3.js Library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+
+    <script type="module" src="main.js"></script>
+    <link rel="shortcut icon" type="image/png" href="images/shonchester.png">
+</head>
+<body>
+    <img src="images/shonchester.svg" class="scroll-widget">
+    <div class="header">
+        <h1>Shonchester United</h1>
+        <img src="images/shonchester.png" alt="Shonchester United Logo" class="logo">
+    </div>
+    <h5>Also Known As: <span class="emphasis1">Asia Hall F.C</span> (2022), <span class="emphasis2">Renaissance F.C</span> (2023)</h5>
+    <p>Founded in 2021 as Asia Hall F.C, the team only composed of Nic, Eddie, a few suitemates from the eponymous Asia Hall Residence Halls in ERC, and a few randoms
+        recruited from IMLeague's free agents (Daniel, Eric, and Mark).
+        <br><br>
+        After a disastrous winless first season, we rebranded to Renaissance F.C to reflect our new living conditions, and saw a marked improvement in results along with 
+        a slew of new players, notably Allen Y. at GK, Allen K. at MF, and Mo at centerback. Though the team wasn't able to advance past the first round of playoffs, we were able to witness
+        the legendary <span class="emphasis1">Shon John RKO</span> against Hermanos F.C. We would end the season going 2-1-3.
+        <br><br>
+        Season 3 would see us rebrand to Shonchester United in honor of Shon's violent demeanor and blatant corruption, and we would have our most successful season of all time, 
+        finishing the season undefeated in normal time. With the introduction of Robbie and Pato, we would dominate the latter half of the season though eventually we would lose a heartbreaking penalty shootout against the eventual champions, KAN F.C. 
+        <br><br>
+        Our final campaign would see us continue our strong performances, finishing 3rd in the league and advancing to the semifinals of the playoffs once more.
+        </p>
+
+    <!-- <h4>Lineups Throughout the Years</h4> -->
+    <div id="lineupChart"></div>
+    
+    <h4>All-Time Scorers and Assisters</h4>
+    <div id="seasonSelector"></div>
+    <div id="statSelector"></div>
+    <div id="scoreChart"></div>
+
+    <h4>Stats Highlights</h4>
+    <div class="rankingsContainer">
+        <h5>Top Scorers</h5>
+        <div class="ranking">
+            <div>
+                <p class="stat">7</p>
+                <p>Rishabh Kaushal</p>
+            </div>
+            <div>
+                <p class="stat">5</p>
+                <p>Pato Harris</p>
+            </div>
+            <div>
+                <p class="stat">4</p>
+                <p>Nathan Joseph</p>
+            </div>
+            <div>
+                <p class="stat">3</p>
+                <p>Jeffrey Phillips</p>
+            </div>
+        </div>
+        <h5>Top Assisters</h5>
+        <div class="ranking">
+            <div>
+                <p class="stat">4</p>
+                <p>Mark Ruangrattham</p>
+            </div>
+            <div>
+                <p class="stat">3</p>
+                <p>Nathan Joseph</p>
+            </div>
+            <div>
+                <p class="stat">2</p>
+                <p>Rishabh Kaushal, Andrew Cen, Robbie Sandborn, Jeffrey Phillips, Tomas Tabaoda</p>
+            </div>
+        </div>
+        <h5>Most Clean Sheets</h5>
+        <div class="ranking">
+            <div>
+                <p class="stat">5</p>
+                <p>Allen Yan</p>
+            </div>
+            <div>
+                <p class="stat">1</p>
+                <p>John-Henry Pezzuto</p>
+            </div>
+        </div>
+
+        <h5>Most Times Thrown Up on the Field</h5>
+        <div class="ranking">
+            <div>
+                <p class="stat">1</p>
+                <p>Agasthya Valluri</p>
+            </div>
+            <div>
+                <p class="stat">1</p>
+                <p>Shon John</p>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <h4>Complete Season Results</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Season</th>
+                <th>Opponent</th>
+                <th>GF</th>
+                <th>GA</th>
+                <th>Record</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td rowspan="4">1</td><td>Jerry's</td><td>2</td><td>2</td><td></td></tr>
+            <tr><td>ABCDE FC</td><td>-</td><td>-</td><td></td></tr>
+            <tr><td>La Scala</td><td>0</td><td>6</td><td></td></tr>
+            <tr><td>I-House</td><td>0</td><td>5</td><td>1-1-2</td></tr>
+            
+            <tr><td rowspan="6">2</td><td>FC Lean Goblins</td><td>3</td><td>1</td><td></td></tr>
+            <tr><td>Hermanos FC</td><td>1</td><td>2</td><td></td></tr>
+            <tr><td>KAN FC</td><td>1</td><td>4</td><td></td></tr>
+            <tr><td>LBC Futbol</td><td>1</td><td>0</td><td></td></tr>
+            <tr><td>Academic Weapons</td><td>1</td><td>1</td><td></td></tr>
+            <tr><td>Leviathan</td><td>0</td><td>1</td><td>2-1-3</td></tr>
+            
+            <tr><td rowspan="7">3</td><td>Beans and Rice</td><td>2</td><td>0</td><td></td></tr>
+            <tr><td>Curiositos FC</td><td>-</td><td>-</td><td></td></tr>
+            <tr><td>Desi Boys</td><td>2</td><td>2</td><td></td></tr>
+            <tr><td>Dusty Dogs</td><td>2</td><td>1</td><td></td></tr>
+            <tr><td>Sharkbaits</td><td>2</td><td>1</td><td></td></tr>
+            <tr><td>///</td><td>1</td><td>0</td><td></td></tr>
+            <tr><td>KAN FC</td><td>1</td><td>1</td><td>5-2-0</td></tr>
+            
+            <tr><td rowspan="8">4</td><td>Sweet 200</td><td>5</td><td>0</td><td></td></tr>
+            <tr><td>Ishida United</td><td>2</td><td>2</td><td></td></tr>
+            <tr><td>Cosun Zhou</td><td>-</td><td>-</td><td></td></tr>
+            <tr><td>Spirits of St. Germain</td><td>0</td><td>1</td><td></td></tr>
+            <tr><td>Jimmy</td><td>4</td><td>2</td><td></td></tr>
+            <tr><td>Gonzo's</td><td>2</td><td>1</td><td></td></tr>
+            <tr><td>Ishida United</td><td>2</td><td>1</td><td></td></tr>
+            <tr><td>Dos Santos UTD</td><td>0</td><td>1</td><td>5-1-2</td></tr>
+            
+            <tr class="total"><td colspan="2">Total</td><td>34</td><td>35</td><td>13-5-7</td></tr>
+        </tbody>
+    </table>
+
+    <h4>Full Spreadsheet</h4>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1NBVxQo4FZc4a2D4P38vcMQTx73HqGahtmjXVD1OSU3SytARiGDQWph3r4itH741ceCuuNvahhVO0/pubhtml?gid=0&amp;single=true&amp;widget=false&amp;headers=false">
+
+    </iframe>
+
+
+</body>
+</html>
